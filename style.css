@@ -1,0 +1,69 @@
+/* CLEARFIX */
+
+*,h1,h2,h3,div{
+  margin: 0;
+  padding: 0;
+}
+
+.topname{
+  text-align: center;
+  font-size: 2em;
+  color: blue;
+}
+ul.menu{
+  content: "\2022";
+  font-family: FontAwesome;
+  margin-right: 10px;
+  display: inline;
+  vertical-align: middle;
+  font-size: 1.6em;
+  font-weight: normal;
+}
+li.dayno{
+  list-style-type: none;
+  text-align: center;
+  background-color: lightgreen;
+  margin:20px 10px 20px 10px;
+}
+li.dayno > a {
+  text-decoration: none;
+}
+/* LARGE   */
+@media screen and (min-width: 769px) {
+
+  #cover{
+  width:60%;
+  height: auto;
+  margin-left: 20%;
+  }
+  .namer{
+    width:60%;
+    background-color: red;
+    margin-left: 20%;
+
+  }
+  .days{
+    width:60%;
+
+    margin-left: 20%;
+  }
+  .menu{
+    width: 60%;
+    margin-left: 20%;
+  }
+}
+
+/* MOBILE  */
+
+@media screen and (max-width: 768px) {
+
+  #cover{
+    width:100%;
+  }
+
+  .namer{
+    width:100%;
+    background-color: red;
+
+  }
+}
