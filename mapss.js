@@ -6,5 +6,5 @@ function myNavFun(name,lat,lon){
         || (navigator.platform.indexOf("iPad") != -1))
          window.open("comgooglemaps://?q=PacePlaza&center=comgooglemaps://?q="+name+"&center="+lat + ","+ lon);
     else
-         window.open("http://maps.google.com/maps?daddr=lat,long&amp;ll=");
+         window.open("http://maps.google.com/maps?daddr="+lat+","+lon+"&ll=");
 }
