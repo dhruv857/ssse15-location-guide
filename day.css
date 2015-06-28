@@ -1,27 +1,33 @@
 /* CLEARFIX */
 
+body {
+    background-color: #e4f3f6;
+}
 *,h1,h2,h3,div{
   margin: 0;
   padding: 0;
 }
 .topname{
   text-align: center;
+    font-family: sans-serif;
+
 }
 
 .funclass {
   margin: 0 0 0.6em 0;
 }
 .funclass summary {
+  font-family: sans-serif;
   display: inine-block;
   padding: 0.3em 0.6em;
   width: auto;
   font-weight: bold;
-  text-shadow: 1px 1px 0 #ddddf7;
+  text-shadow: 1px 1px 0 #092741;
   cursor: pointer;
-  background: #b3b3ee linear-gradient(to bottom, #c8c8f3 48%, #b3b3ee 52%);
-  border: solid 1px #7575e0;
+  background-color: #092741;
+  border: solid 1px #092741;
   border-radius: 0.3em;
-  color: midnightblue;
+  color: #e4f3f6;
   user-select: none;
 }
 .funclass summary .details-open-indicator {
@@ -60,7 +66,7 @@
 .funclass[open] summary {
   color: #101046;
   text-shadow: none;
-  background: #8a8ae5;
+  background: #e4f3f6;
   border-radius: 0.3em 0.3em 0 0 ;
 }
 .funclass[open] summary:before {
@@ -78,7 +84,7 @@
   color: blue
 }
  a:visited{
-  color:red
+  color:#092741
 
 }
 
@@ -92,8 +98,10 @@
   }
   .namer{
     width:60%;
-    background-color: red;
+    background-color: #092741;
     margin-left: 20%;
+    color: #e4f3f6;
+
 
   }
   .detsed{
